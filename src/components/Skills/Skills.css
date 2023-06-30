@@ -1,19 +1,22 @@
 .skills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-  height: 30vh;
-  margin-bottom: 8rem;
-  /* darkmode */
-  color: var(--black);
-}
-.achievement{
     display: flex;
-    flex-direction: column;    
+    flex-wrap: wrap; /* Allow items to wrap to new lines */
     align-items: center;
-}
-.circle {
+    justify-content: center;
+    gap: 2rem; /* Decreased the gap for smaller screens */
+    height: auto; /* Adjust height dynamically based on content */
+    margin-bottom: 4rem; /* Decreased margin for smaller screens */
+    /* darkmode */
+    color: var(--black);
+  }
+  
+  .achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circle {
     width: 4rem;
     height: 4rem;
     background: white;
@@ -24,9 +27,10 @@
     justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 2rem;
-}
-.circle::before {
+    margin-bottom: 1.5rem; /* Decreased margin for smaller screens */
+  }
+  
+  .circle::before {
     border-radius: 100%;
     content: '';
     background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
@@ -35,17 +39,33 @@
     bottom: -8px;
     right: -8px;
     position: absolute;
-    z-index:-1;
+    z-index: -1;
     box-shadow: var(--boxShadow);
-}
-
-.achievement span:nth-of-type(2){
+  }
+  
+  .achievement span:nth-of-type(2) {
     color: var(--orange);
-}
-
-
-@media screen and (max-width: 480px) {
-    .Skills{
-        transform: scale(0.7);
+  }
+  
+  @media screen and (max-width: 480px) {
+    .skills {
+      transform: scale(0.7);
+      margin-bottom: 2rem;
     }
-}
+  }
+  
+  /* Additional media query for larger screens */
+  @media screen and (min-width: 768px) {
+    .skills {
+      gap: 3rem; /* Adjust gap for larger screens */
+      margin-bottom: 6rem; /* Adjust margin for larger screens */
+    }
+  
+    .circle {
+      width: 5rem; /* Increase size for larger screens */
+      height: 5rem; /* Increase size for larger screens */
+      font-size: 2rem; /* Increase font size for larger screens */
+      margin-bottom: 2rem; /* Adjust margin for larger screens */
+    }
+  }
+  
