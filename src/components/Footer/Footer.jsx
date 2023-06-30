@@ -16,8 +16,8 @@ const Footer = () => {
           <a href="https://www.facebook.com/profile.php?id=100009176339719"><Facebook color="white" size={"2rem"} /></a>
           <a href="https://github.com/surajrac800"><Github color="white" size={"2rem"} /></a> 
         </div> 
-        <span>surajchaurasiya8009448@gmail.com</span> 
-         <span>Er. Suraj copyright &copy; All rights reserved 2022</span>
+        <span>8009448518</span> 
+         <span>Er. Suraj copyright &copy; 2022</span>
       </div>
     </div>
   );
