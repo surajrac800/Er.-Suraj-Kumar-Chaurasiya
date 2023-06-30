@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="https://github.com/surajrac800"><Github color="#3586ff" size={"2rem"} /></a> 
         </div> 
         <span>8009448518</span> 
-         <span>Er. Suraj copyright&copy;2022</span>
+         <span>Er. Suraj &copy; 2022</span>
       </div>
     </div>
   );
