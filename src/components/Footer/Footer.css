@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  margin-top: -5rem;
+  background: url("../../img/wave.png") no-repeat center/cover;
+}
+
+.f-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10rem;
+  gap: 1rem;
+  color: #242D49;
+  font-size: 14px;
+}
+
+.f-content span:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  color:#3586ff;
+}
+
+.f-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .f-content {
+    padding-bottom: 10px;
+    margin-top: 5rem;
+  }
+
+  .f-content span:nth-last-of-type(-n+2) {
+    display: flex;
+  }
+}
