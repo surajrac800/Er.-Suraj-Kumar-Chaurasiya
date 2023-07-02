@@ -21,7 +21,7 @@ const Testimonial = () => {
     },
     {
       img: mts,
-      College:"Maa Tripur Sundari Public School, Lalapur",
+      College:"Maa Tripur Sundari Public School,",
       course:
         " Senior Secondary",
         Stream:"Science",
@@ -29,7 +29,7 @@ const Testimonial = () => {
     },
     {
       img: mts,
-      College:"Maa Tripur Sundari Public School, Lalapur",
+      College:"Maa Tripur Sundari Public School,",
       Stream:
         "Secondary",
         date: "2015-2016",
