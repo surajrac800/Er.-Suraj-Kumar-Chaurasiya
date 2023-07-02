@@ -3,7 +3,7 @@
   flex-direction: column; /* Changed to column layout for smaller screens */
   align-items: center;
   margin: -0.5rem -3.5rem;
-  margin-top: -5rem;
+  margin-top: -3rem;
 }
 
 .f-content {
