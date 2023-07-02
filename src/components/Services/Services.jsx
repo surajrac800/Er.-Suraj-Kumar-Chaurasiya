@@ -43,7 +43,7 @@ const Services = () => {
          
           
         </spane>
-        <a href={"https://drive.google.com/file/d/1C6KaaDbK1EyPSTh0RWzlkzCgQ03KHc1e/view?usp=drive_link"} download>
+        <a href="https://drive.google.com/file/d/1C6KaaDbK1EyPSTh0RWzlkzCgQ03KHc1e/view?usp=drive_link">
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
