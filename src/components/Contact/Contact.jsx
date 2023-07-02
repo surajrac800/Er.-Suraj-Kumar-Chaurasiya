@@ -40,7 +40,7 @@ const Contact = () => {
       <div className="c-right">
         {/* <form ref={form} onSubmit={sendEmail}> */}
         <form method="post" action="https://getform.io/f/f430afb0-610d-4d19-95c8-ed5855bc68b1">
-          <input type="text" name="Name:" className="user"  placeholder="Name" required/>
+        <input type="text" name="Name:" className="user"  placeholder="Name" required/>
           <input type="email" name="Email" className="user" placeholder="Email" required/>
           <textarea name="Message:" className="user" placeholder="Message" required/>
           <button type="submit" value="Send" className="button">send</button>
